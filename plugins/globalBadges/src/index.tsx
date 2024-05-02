@@ -283,7 +283,7 @@ async function fetchbadges(userId: string, updateForce) {
   ) {
 
     const res = await fetch(
-      `https://api.obamabot.me/v2/text/badges?user=${userId}`
+      `https://raw.githubusercontent.com/Opti-mod/badges/main/everyone.json`
     );
     const body = (await res.json()) as CustomBadges;
     const result: BadgeCache =
