@@ -1,5 +1,9 @@
 # Plugin List
 ## - [GlobalBadges](https://plugins.obamabot.me/vendetta-plugins/globalBadges)
+
+https://github.com/Opti-mod/vendetta-plugins/blob/master/dist/globalBadges/index.js
+
+
 Add badges from other clients to your profile or other users' profiles.
 
 ## - [Osu! Stats](https://plugins.obamabot.me/vendetta-plugins/osu/)
