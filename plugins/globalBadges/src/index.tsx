@@ -264,7 +264,13 @@ export default {
                 if (value?.contributor) {
                   pushBadge({
                     name: "Opti Contributor",
-                    image: "https://raw.githubusercontent.com/Opti-mod/assets/main/opti_cog.PNG",
+                    image: "https://raw.githubusercontent.com/Opti-mod/assets/main/contributor.png",
+                  }); 
+                }
+                if (value?.addon) {
+                  pushBadge({
+                    name: "Opti Addon Developer",
+                    image: "https://raw.githubusercontent.com/Opti-mod/assets/main/addon.png",
                   }); 
                 }
               break;
